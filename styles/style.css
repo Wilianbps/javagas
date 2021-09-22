@@ -121,7 +121,6 @@ body {
   width: 5rem;
 }
 
-
 /* #home .section {
   position: relative;
 }
@@ -784,7 +783,7 @@ footer.section {
     -webkit-font-smoothing: auto;
   }
 
-  #home{
+  #home {
     display: flex;
     justify-content: flex-start;
   }
@@ -793,7 +792,6 @@ footer.section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
   }
 
   #home .image {
@@ -822,9 +820,6 @@ footer.section {
 
   /* about */
 
-  #about {
-    height: 100vh;
-  }
   #about .image-text .text {
     text-align: left;
   }
