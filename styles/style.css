@@ -773,6 +773,7 @@ footer.section {
   #home .image {
     order: 1;
     justify-content: flex-end;
+    width: 35rem;
   }
 
   #home .title {
