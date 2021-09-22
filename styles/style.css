@@ -121,9 +121,6 @@ body {
   width: 5rem;
 }
 
-.full-height {
-  height: 100%;
-}
 
 /* #home .section {
   position: relative;
@@ -755,9 +752,9 @@ footer.section {
     margin: 0 auto;
   }
 
-  .section {
+  /* .section {
     padding: 8rem 0;
-  }
+  } */
 
   .logo {
     width: 6.5rem;
@@ -787,11 +784,16 @@ footer.section {
     -webkit-font-smoothing: auto;
   }
 
+ /*  #home{
+    display: flex;
+    justify-content: flex-start;
+  } */
+
   #home .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5rem;
+    
   }
 
   #home .image {
