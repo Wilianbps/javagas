@@ -250,7 +250,7 @@ nav.show .icon-close {
 /* *** HOME ****************************** */
 
 #home {
-  height: 100%;
+  height: 100vh;
   background-color: var(--body-color);
 }
 
