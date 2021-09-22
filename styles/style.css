@@ -10,7 +10,7 @@ a {
 }
 
 img {
-  width: 80%;
+  width: 60%;
   height: auto;
 }
 
@@ -94,7 +94,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 
 /* *** LAYOUT ****************************** */
 
@@ -242,7 +241,6 @@ nav.show .icon-close {
 }
 
 /* *** HOME ****************************** */
-
 
 #home .container {
   margin-top: 3.5rem;
@@ -773,7 +771,7 @@ footer.section {
   #home .image {
     order: 1;
     justify-content: flex-end;
-    width: 35rem;
+ 
   }
 
   #home .title {
@@ -796,6 +794,10 @@ footer.section {
   }
 
   /* about */
+
+  #about {
+    height: 100vh;
+  }
   #about .image-text .text {
     text-align: left;
   }
