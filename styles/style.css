@@ -10,7 +10,7 @@ a {
 }
 
 img {
-  width: 55%;
+  width: 70%;
   height: auto;
 }
 
@@ -744,6 +744,11 @@ footer.section {
   body p,
   li {
     font-size: 18px;
+  }
+
+  img {
+    width: 55%;
+    height: auto;
   }
 
   .container {
