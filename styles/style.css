@@ -10,7 +10,7 @@ a {
 }
 
 img {
-  width: 70%;
+  width: 60%;
   height: auto;
 }
 
@@ -784,10 +784,10 @@ footer.section {
     -webkit-font-smoothing: auto;
   }
 
- /*  #home{
+  #home{
     display: flex;
     justify-content: flex-start;
-  } */
+  }
 
   #home .container {
     display: flex;
