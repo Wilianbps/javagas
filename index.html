@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <title>Java Gás</title>
+
+    <!--  *** ICONS ******************************  -->
+
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!--  *** FONTS ******************************  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a href="#"><img class="logo" src="imgs/logo.png" alt="Logo" /></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Quem Somos</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#clients">Clientes</a></li>
+            <li><a class="title" href="#team">Equipe</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main class="jl-page-wrapper">
+      <section class="section jl-full-height jl-first-section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="imgs/img_home.png"
+              alt="Profissionais uniformizados com notebook que contém informaçãoes do projeto"
+            />
+          </div>
+
+          <div class="text">
+            <h1 class="title">Java Gás</h1>
+            <p>
+              Uma empresa séria a dez anos no mercado. <br />
+              Com profissionais qualificados levando <br />
+              segurança e qualidade em seus serviços.
+            </p>
+            <p class="typed"></p>
+          </div>
+        </div>
+
+        <a href="#about"
+          ><div class="jl-scroll-down">
+            <div class="jl-arrow-down">
+              <i class="fas fa-arrow-down"></i>
+            </div></div
+        ></a>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image-text">
+            <div>
+              <img
+                class="image"
+                src="imgs/img_quem_somos.png"
+                alt="Funcionários com mão um emcima da outra, como sinal de unidade na equipe"
+              />
+            </div>
+
+            <div class="text">
+              <img
+                class="quem_somos"
+                src="imgs/quem_somos.png"
+                alt="quem somos"
+              />
+              <h3 class="title">
+                Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing elit
+              </h3>
+              <p>
+                Uma empresa séria a dez anos no mercado. Com profissionais
+                qualificados <br />levando segurança e qualidade em seus
+                serviços.
+              </p>
+            </div>
+          </div>
+          <div class="about_icons">
+            <div class="company_numbers">
+              <div class="icon_number">
+                <img class="icons" src="imgs/icons/system.png" alt="" />
+                <h2>1875</h2>
+              </div>
+              <p>Trabalhos Realizados</p>
+            </div>
+            <div class="company_numbers">
+              <div class="icon_number">
+                <img class="icons" src="imgs/icons/back-in-time.png" alt="" />
+                <h2>15</h2>
+              </div>
+              <p>Anos de Experiência</p>
+            </div>
+            <div class="company_numbers">
+              <div class="icon_number">
+                <img class="icons" src="imgs/icons/people.png" alt="" />
+                <h2>1580</h2>
+              </div>
+              <p>Clientes Satisfeitos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h1 class="title">Serviços</h1>
+            <h3 class="title">
+              Independente do sesafio, sempre entregamos uma solução
+            </h3>
+          </header>
+
+          <div class="cards grid">
+            <div class="card">
+              <img src="imgs/icons/home.png" alt="" />
+              <h3 class="title">Residencias</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="card">
+              <img src="imgs/icons/building.png" alt="" />
+              <h3 class="title">Codomínios</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="card">
+              <img src="imgs/icons/office-building.png" alt="" />
+              <h3 class="title">Empresas</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="clients">
+        <div class="container">
+          <header>
+            <h1 class="title line">Clientes</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit
+            </p>
+          </header>
+
+          <div class="clients swiper">
+            <div class="swiper-wrapper">
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/engineer-is-inspecting-his-work-in-building-construction-site.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/man-standing-on-rooftop-with-phone-in-hand.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/rugged-female-construction-workers-on-the-jobsite.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/engineer-is-inspecting-his-work-in-building-construction-site.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div></div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/man-standing-on-rooftop-with-phone-in-hand.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/rugged-female-construction-workers-on-the-jobsite.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/engineer-is-inspecting-his-work-in-building-construction-site.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+
+                <img
+                  src="imgs/clients/man-standing-on-rooftop-with-phone-in-hand.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+              <div class="client swiper-slide">
+                <div class="card-swiper">
+                <img
+                  src="imgs/clients/rugged-female-construction-workers-on-the-jobsite.jpg"
+                  alt=""
+                />
+                <p>Lorem ipsum dolor</p>
+              </div>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="team">
+        <div class="container grid">
+          <header>
+            <img class="title_team" src="imgs/nossa_equipe.png" alt="" />
+            <p>Quem vai te ajudar?</p>
+          </header>
+
+          <div class="cards_team">
+            <div class="card">
+              <img src="imgs/team/3.png" alt="" />
+              <p>João</p>
+              <p>Chefe Executivo</p>
+            </div>
+            <div class="card">
+              <img src="imgs/team/2.png" alt="" />
+              <p>Marina</p>
+              <p>Secretária</p>
+            </div>
+            <div class="card">
+              <img src="imgs/team/5.png" alt="" />
+              <p>Pedro</p>
+              <p>Diretor</p>
+            </div>
+            <div class="card">
+              <img src="imgs/team/6.png" alt="" />
+              <p>Márcio</p>
+              <p>Técnico</p>
+            </div>
+            <div class="card">
+              <img src="imgs/team/1.png" alt="" />
+              <p>Amanda</p>
+              <p>Atendimento</p>
+            </div>
+            <div class="card">
+              <img src="imgs/team/4.png" alt="" />
+              <p>Lucas</p>
+              <p>Técnico</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Java Gás para <br />
+              fazer seu orçamento. Queremos tirar suas <br />dúvidas e ouvir
+              suas sugestões!
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511930156542&text=Olá! Gostaria de fazer um orçamento?"
+              class="button body-font_size"
+              target="_blank"
+              class="button"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>(11)1234-5678</li>
+              <li>
+                <i class="icon-map-pin"></i>Rua Alcina Jorge Klemes, 230, Jardim
+                São José - Francisco Morato - SP
+              </li>
+              <li><i class="icon-mail"></i>contato@javagas.com.br</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="divider-2"></div>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home"
+            ><img class="logo" src="imgs/logo.png" alt="Logo"
+          /></a>
+          <p>@2021 Java Gás</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+
+        <div class="social grid">
+          <a href="https://instagram.com" target="_blank"
+            ><i class="icon-instagram"></i></a
+          ><a href="https://facebook.com" target="_blank"
+            ><i class="icon-facebook"></i></a
+          ><a
+            href="https://api.whatsapp.com/send?phone=+5511930156542&text=Olá! Gostaria de fazer um orçamento?"
+            target="_blank"
+            ><i class="icon-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <a
+      href="https://api.whatsapp.com/send?phone=+5511930156542&text=Olá! Gostaria de fazer um orçamento?"
+      target="_blank"
+      class="whatss-fixed"
+      ><i class="icon-whatsapp"></i
+    ></a>
+
+    <!--    scrollrevealjs -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed -->
+    <script type="text/javascript" src="scripts/typed.js"></script>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
