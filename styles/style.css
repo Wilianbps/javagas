@@ -45,7 +45,6 @@ html {
 body {
   font: 400 1rem var(--body-font);
   color: var(--gray);
-  background-color: var(--body-color);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -252,9 +251,11 @@ nav.show .icon-close {
 
 #home {
   height: 100vh;
+  background-color: var(--body-color);
 }
 
 #home .container {
+  
   margin-top: 3.5rem;
 }
 
