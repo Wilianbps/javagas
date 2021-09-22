@@ -45,6 +45,7 @@ html {
 body {
   font: 400 1rem var(--body-font);
   color: var(--gray);
+  background-color: var(--body-color);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -94,9 +95,6 @@ body {
   justify-content: center;
 }
 
-/* .section {
-  padding: 8rem 0;
-} */
 
 /* *** LAYOUT ****************************** */
 
@@ -124,13 +122,9 @@ body {
   width: 5rem;
 }
 
-/* .jl-full-height {
+.full-height {
   height: 100vh;
 }
-
-.jl-first-section {
-  height: calc(100vh - 60px);
-} */
 
 /* #home .section {
   position: relative;
@@ -249,13 +243,8 @@ nav.show .icon-close {
 
 /* *** HOME ****************************** */
 
-#home {
-  height: 100vh;
-  background-color: var(--body-color);
-}
 
 #home .container {
-  
   margin-top: 3.5rem;
 }
 
