@@ -411,6 +411,7 @@ nav.show .icon-close {
 }
 #services .cards {
   margin-bottom: 4rem;
+  
 }
 
 #services .button {
@@ -423,6 +424,7 @@ nav.show .icon-close {
 }
 
 #services .cards .card img {
+  margin: 0 auto;
   width: 5rem;
 }
 
@@ -901,7 +903,7 @@ footer.section {
   }
 
   #services .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;    
   }
 
   #services .cards .card p {
