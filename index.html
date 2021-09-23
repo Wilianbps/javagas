@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
     <!-- Swiper -->
     <link
       rel="stylesheet"
@@ -49,7 +58,7 @@
     </header>
 
     <main>
-      <section class="section full-height" id="home">
+      <section class="section" id="home">
         <div class="container grid">
           <div class="image">
             <img
@@ -95,13 +104,23 @@
                 alt="quem somos"
               />
               <h3 class="title">
-                Lorem ipsum dolor sit amet, <br />
-                consectetur adipiscing elit
+                Uma empresa séria, <br />
+                A mais de dez anos no mercado.
               </h3>
               <p>
-                Uma empresa séria a dez anos no mercado. Com profissionais
-                qualificados <br />levando segurança e qualidade em seus
-                serviços.
+                A empresa
+                <strong>Java Gás Instalações e Manutenções</strong> nasceu no
+                interior de São Paulo da visão e parceria de pai e filho com
+                experiência vasta na área do gás, hidráulica e combate a
+                incêndio, onde o maior objetivo era tornar o sonho em realidade,
+                e juntos deixarem um legado. A Java Gás é uma empresa prestadora
+                de serviços especializada nas áreas de execução e manutenção de
+                rede de gás canalizado, hidráulica e combate a incêndio.
+                Possuímos uma equipe devidamente habilitada, seupervisionada por
+                profissionais, técnicos responsáveis aos serviços executados de
+                acordo com as normas da A empresa
+                <strong>ABNT (Associação Brasileira de Normas Técnicas)</strong>
+                vigentes.
               </p>
             </div>
           </div>
@@ -137,25 +156,168 @@
           <header>
             <h1 class="title">Serviços</h1>
             <h3 class="title">
-              Independente do sesafio, sempre entregamos uma solução
+              Independente do desafio, sempre entregamos uma solução.
             </h3>
+
+            <p>
+              As instalações de novas tubulação de Gás são feitas por
+              profissionais capacitados e especializados, visando um ótimo
+              serviço e uma garantia dentro das normas de segurança.
+            </p>
           </header>
 
           <div class="cards grid">
             <div class="card">
               <img src="imgs/icons/home.png" alt="" />
-              <h3 class="title">Residencias</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <h3 class="title">Residências</h3>
+              <p>
+                Instalação de novas tubulações de gás dentro das normas de
+                segurança para que haja uma ligação de gás natural e GLP até a
+                sua residência.
+              </p>
             </div>
             <div class="card">
               <img src="imgs/icons/building.png" alt="" />
               <h3 class="title">Codomínios</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p>
+                A instalação da nova tubulação de Gás poderá ser interna
+                (embutida na parede) ou sobre a parede (exposta), sendo que a
+                exposta facilita a instação e manutenção, com possibilidade de
+                ter medição individualizada ou coletiva de acordo com o número
+                de pontos na edificação
+              </p>
             </div>
             <div class="card">
               <img src="imgs/icons/office-building.png" alt="" />
               <h3 class="title">Empresas</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p>
+                Trabalhamos com todos os tipos de materiais como: PEAD, Cobre,
+                PVC, Galvanizado, Pex Multicamadas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão para acionar modal -->
+        <button
+          type="button"
+          class="btn btn-primary button"
+          data-toggle="modal"
+          data-target="#ExemploModalCentralizado"
+        >
+          Mais dos Nossos Serviços
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="ExemploModalCentralizado"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="TituloModalCentralizado"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title title" id="TituloModalCentralizado">
+                  Conheça abaixo mais dos nossos serviços
+                </h3>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Fechar"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="modal-services grid">
+                  <div class="text">
+                    <h3>Conversão de Fogões para GLP (Botijão):</h3>
+                    <p>
+                      Caso tenha feito uma conversão anterior para GN Gás
+                      Natural, se precisar podemos também desfazer a
+                      transformação de Gás Natural para o fogão à Gás Botijão
+                      (GLP). Para ambos os casos conte conosco.
+                    </p>
+                  </div>
+
+                  <div class="text">
+                    <h3>Conversão de Fogões para GLP (Botijão):</h3>
+                    <p>
+                      Caso tenha feito uma conversão anterior para GN Gás
+                      Natural, se precisar podemos também desfazer a
+                      transformação de Gás Natural para o fogão à Gás Botijão
+                      (GLP). Para ambos os casos conte com conosco.
+                    </p>
+                  </div>
+
+                  <div class="text">
+                    <h3>Retiramos Água de tubulações:</h3>
+                    <p>
+                      Retiramos Água de tubulações de Gás em Residências,
+                      Prédios e Empresas.
+                    </p>
+                  </div>
+
+                  <div class="text">
+                    <h3>Instalação de Aquecedor de Gás:</h3>
+                    <p>
+                      Prestamos servições de instalação de aquecedor a Gás,
+                      estamos prontos para prestar o melhor serviço garantindo
+                      qualidade e satisfação.
+                    </p>
+                  </div>
+
+                  <div class="text">
+                    <h3>Teste de Estanqueidade:</h3>
+                    <h5>
+                      Para verificar o vazamento de Gás realizamos os testes
+                      com:
+                    </h5>
+                    <p>Manômetro de coluna d 'água.</p>
+                    <p>
+                      Manômetro com Glicerina para alta e baixa pressão,
+                      seguimos todos os padrões conforme a norma
+                      <strong>NBR 15571</strong>.
+                    </p>
+                  </div>
+
+                  <div class="text">
+                    <h3>Reparo em vazamento de Gás:</h3>
+                    <p>
+                      Vazamento de Gás representa um grande perigo! Em caso de
+                      vazamentos, entre em contato conosco o mais rápido
+                      possível para que haja uma solução rápida e eficaz contra
+                      o vazamento. Dispomos de profissionais preparados para te
+                      atender, solucionando o problema de acordo com as normas
+                      de segurança.
+                    </p>
+                  </div>
+
+                  <div class="text">
+                    <h3>Emitimos laudo:</h3>
+
+                    <h5>Para novas instalações de Gás:</h5>
+                    <p>
+                      Após concluir a execução do teste de estanqueidade
+                      emitimos laudo técnico e ART para AVCB do corpo de
+                      bombeiros.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -376,6 +538,24 @@
       class="whatss-fixed"
       ><i class="icon-whatsapp"></i
     ></a>
+
+    <!--  Bootstrap -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
 
     <!--    scrollrevealjs -->
     <script src="https://unpkg.com/scrollreveal"></script>
