@@ -90,7 +90,7 @@ body {
   transition: background 0.3s;
 }
 
-.button:hover{
+.button:hover {
   filter: brightness(0.9);
 }
 
@@ -161,7 +161,7 @@ nav ul li {
 nav ul li a {
   transition: color 0.2s;
   position: relative;
-  top:0.5rem;
+  top: 0.5rem;
 }
 
 nav ul li a:hover,
@@ -189,7 +189,7 @@ nav .menu {
   opacity: 0;
   visibility: hidden;
   top: -20rem;
-  transition: 0.2s; 
+  transition: 0.2s;
 }
 
 nav .menu ul {
@@ -211,7 +211,7 @@ nav.show .menu {
   left: 0;
   display: grid;
   place-content: center;
-  }
+}
 
 nav.show ul.grid {
   gap: 4rem;
@@ -691,6 +691,7 @@ footer .social a {
 
 footer .social a:hover {
   transform: translateY(-7px);
+  text-decoration: none;
 }
 
 footer.section {
@@ -718,15 +719,18 @@ footer.section {
   visibility: visible;
   opacity: 1;
   transform: translateY(0%);
+  text-decoration: none;
+  color: white;
 }
 
 /* WHATSSAPP FIXED */
-.whatss-fixed {
+a.whatss-fixed{
   color: #4caf50;
   position: fixed;
   right: 1rem;
   bottom: 0.5rem;
   font-size: 2.5rem;
+  text-decoration: none;
 }
 
 /* RESPONSIVE */
@@ -796,7 +800,6 @@ footer.section {
     margin: 0 auto;
   }
 
-
   .logo {
     width: 6.5rem;
   }
@@ -813,7 +816,7 @@ footer.section {
 
   nav .menu ul {
     display: flex;
-     gap: 2rem;
+    gap: 2rem;
   }
 
   nav .icon-menu {
@@ -823,7 +826,7 @@ footer.section {
   nav .menu ul li a.title {
     font: 400 1.1rem var(--title-font);
     -webkit-font-smoothing: antialiased;
-    text-decoration: none;       
+    text-decoration: none;
   }
 
   nav ul li a.title.active {
