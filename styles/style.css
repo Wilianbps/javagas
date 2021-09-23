@@ -90,6 +90,10 @@ body {
   transition: background 0.3s;
 }
 
+.button:hover{
+  filter: brightness(0.9);
+}
+
 .image {
   display: flex;
   justify-content: center;
@@ -411,7 +415,6 @@ nav.show .icon-close {
 }
 #services .cards {
   margin-bottom: 4rem;
-  
 }
 
 #services .button {
@@ -630,6 +633,10 @@ section#contact {
 #contact .button i {
   font-size: 1.5rem;
   margin-right: 0.625rem;
+  color: white;
+}
+#contact .button {
+  color: white;
 }
 
 #contact ul.grid {
@@ -813,6 +820,7 @@ footer.section {
   nav .menu ul li a.title {
     font: 400 1.1rem var(--title-font);
     -webkit-font-smoothing: antialiased;
+    text-decoration: none;
   }
 
   nav ul li a.title.active {
@@ -903,7 +911,7 @@ footer.section {
   }
 
   #services .cards {
-    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #services .cards .card p {
@@ -962,6 +970,10 @@ footer.section {
     align-items: center;
     justify-content: space-between;
     padding: 4rem 0;
+  }
+
+  #contact a {
+    text-decoration: none;
   }
 
   /* footer */
