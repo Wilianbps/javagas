@@ -79,7 +79,7 @@ body {
 }
 
 .button {
-  background-color: var(--blue);
+  background-color: var(--light-blue);
   color: white;
   height: 3.5rem;
   display: inline-flex;
@@ -409,6 +409,14 @@ nav.show .icon-close {
 .section#services {
   text-align: center;
 }
+#services .cards {
+  margin-bottom: 4rem;
+}
+
+#services .button {
+  background-color: var(--light-blue);
+  font-size: 18px;
+}
 
 #services .cards.grid {
   gap: 1.5rem;
@@ -434,6 +442,28 @@ nav.show .icon-close {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--orange);
   border-radius: 0.25rem 0.25rem 0 0;
+}
+
+#services .modal-services .text {
+  text-align: left;
+}
+
+#services header h3.title {
+  color: var(--light-blue);
+}
+
+#services .modal-services .text h3 {
+  font-size: 20px;
+  color: var(--light-blue);
+}
+
+#services .modal-title.title {
+  font-size: 20px;
+  color: var(--orange);
+}
+
+.modal-services.grid {
+  gap: 2rem;
 }
 
 /* *** CLIENTS ****************************** */
@@ -848,6 +878,15 @@ footer.section {
     flex-direction: row-reverse;
   }
 
+  #about .image-text p {
+    text-align: justify;
+    max-width: 80%;
+  }
+
+  #about .image-text p strong {
+    color: var(--orange);
+  }
+
   #about .about_icons {
     margin-top: 2rem;
     display: flex;
@@ -862,7 +901,15 @@ footer.section {
   }
 
   #services .cards {
-    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #services .cards .card p {
+    text-align: justify;
+  }
+
+  #services header p {
+    margin-top: 2rem;
   }
 
   /* clients */
@@ -922,5 +969,11 @@ footer.section {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 0;
+  }
+
+  @media screen and (min-width: 1400px) {
+    #home .image {
+      width: 70%;
+    }
   }
 }
