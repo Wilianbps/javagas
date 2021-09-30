@@ -99,6 +99,35 @@ body {
   justify-content: center;
 }
 
+.swiper-slide .card-swiper p {
+  margin-bottom: 0.75rem;
+  color: var(--light-blue);
+  text-align: center;
+}
+
+.card-swiper {
+  padding: 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+/* swiper */
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+  margin-top: 3rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--orange);
+}
+
 /* *** LAYOUT ****************************** */
 
 #header {
@@ -516,35 +545,6 @@ nav.show .icon-close {
   object-fit: cover;
 }
 
-.client.swiper-slide .card-swiper p {
-  margin-bottom: 0.75rem;
-  color: var(--light-blue);
-  text-align: center;
-}
-
-.clients .card-swiper {
-  padding: 2rem;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
-  border-radius: 0.25rem;
-  margin-bottom: 2rem;
-}
-
-/* swiper */
-.swiper-slide {
-  height: auto;
-  padding: 4rem 1rem;
-  margin-top: 3rem;
-}
-
-.swiper-pagination-bullet {
-  width: 0.75rem;
-  height: 0.75rem;
-}
-
-.swiper-pagination-bullet-active {
-  background: var(--orange);
-}
-
 /* *** TEAM ****************************** */
 
 #team header {
@@ -575,18 +575,16 @@ nav.show .icon-close {
   text-align: center;
   justify-content: center;
   margin: auto;
-  gap: 3rem;
-
+  gap: 4rem;
   margin-top: 5rem;
 }
 
 #team .cards_team .card {
-  padding: 1rem 1.5rem;
-  height: 7.5rem;
+  height: 8.5rem;
   width: 12rem;
   background-color: white;
   border-radius: 0.75rem;
-  margin: 2.5rem;
+  margin: 2.5rem 2.5rem 6rem 2.5rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   text-align: center;
@@ -597,12 +595,12 @@ nav.show .icon-close {
 }
 
 #team .cards_team .card img {
-  width: 7rem;
+  width: 7.5rem;
   object-fit: cover;
   border-radius: 50%;
   border: 7px solid white;
   position: absolute;
-  top: -3.5rem;
+  top: -4.5rem;
 }
 
 #team .cards_team .card p:nth-child(2) {
@@ -610,6 +608,33 @@ nav.show .icon-close {
 }
 
 #team .cards_team .card p:nth-child(3) {
+  color: var(--orange);
+}
+
+#team .team {
+  padding: 2rem;
+  border-radius: 0.25rem 0.25rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#team .team img {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 0.25rem;
+  object-fit: fill;
+}
+
+#team .team img.employees {
+  width: 25rem;
+}
+
+#team .team img.two_employees {
+  width: 16rem;
+}
+
+#team .employees header h2 {
   color: var(--orange);
 }
 
@@ -724,7 +749,7 @@ footer.section {
 }
 
 /* WHATSSAPP FIXED */
-a.whatss-fixed{
+a.whatss-fixed {
   color: #4caf50;
   position: fixed;
   right: 1rem;
@@ -966,7 +991,7 @@ a.whatss-fixed{
 
   #team .cards_team .card img {
     width: 10rem;
-    top: -5rem;
+    top: -6rem;
   }
 
   /* contact */
