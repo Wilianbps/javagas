@@ -545,6 +545,12 @@ nav.show .icon-close {
   object-fit: cover;
 }
 
+#clients h3.title {
+  font: 700 1.2rem 'Poppins', sans-serif;
+  color: #007ed3;
+  text-align: center;
+}
+
 /* *** TEAM ****************************** */
 
 #team header {
@@ -592,6 +598,12 @@ nav.show .icon-close {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#team .cards_team .card img:hover {
+  transform: translateY(3.125rem);
 }
 
 #team .cards_team .card img {
@@ -622,10 +634,6 @@ nav.show .icon-close {
 #team .team img {
   width: 20rem;
 
-
-
-
-  
   height: 15rem;
   border-radius: 0.25rem;
   object-fit: fill;
