@@ -823,6 +823,7 @@ a.whatss-fixed {
   #clients .clients_logo {
     grid-template-columns: 1fr;
   }
+
   #services .fire-solution {
     width: 20rem;
   }
@@ -843,6 +844,14 @@ a.whatss-fixed {
   #about .company_numbers {
     max-width: 25%;
     margin: auto;
+  }
+
+  #services .fire-solution {
+    width: 20rem;
+  }
+
+  #services .fire-solution p {
+    text-align: justify;
   }
 
   #clients .clients_logo {
