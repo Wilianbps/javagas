@@ -838,6 +838,14 @@ a.whatss-fixed {
     max-width: 50%;
     margin: auto;
   }
+
+  #services .fire-solution {
+    width: 20rem;
+  }
+
+  #services .fire-solution p {
+    text-align: justify;
+  }
 }
 
 @media screen and (min-width: 650px) and (max-width: 991px) {
