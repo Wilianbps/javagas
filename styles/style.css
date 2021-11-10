@@ -479,6 +479,23 @@ nav.show .icon-close {
   border-radius: 0.25rem 0.25rem 0 0;
 }
 
+#services .cards.fire-solution {
+  display: flex;
+  width: 35rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+#services .fire-solution .card img {
+  width: 6.25rem;
+}
+
+#services .fire-solution .card ul li {
+  list-style: circle inside;
+  text-align: left;
+  font-weight: bold;
+}
+
 #services .modal-services .text {
   text-align: left;
 }
@@ -500,6 +517,7 @@ nav.show .icon-close {
 .modal-services.grid {
   gap: 2rem;
 }
+
 
 /* *** CLIENTS ****************************** */
 
@@ -551,18 +569,15 @@ nav.show .icon-close {
   text-align: center;
 }
 
-
-
-#clients .swiper{
+#clients .swiper {
   margin-bottom: 3rem;
 }
 
-#clients  h2.title{
+#clients h2.title {
   font: 700 1.5rem 'Poppins', sans-serif;
   text-align: center;
   color: var(--orange);
- 
-  }
+}
 
 #clients .clients_logo {
   display: grid;
@@ -583,12 +598,12 @@ nav.show .icon-close {
   cursor: pointer;
 }
 
-#clients .clients_logo .card_logo img.sbt{
- width: 130px;
+#clients .clients_logo .card_logo img.sbt {
+  width: 130px;
 }
 
 #clients .clients_logo .card_logo img:hover {
-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
 }
 
 /* *** TEAM ****************************** */
@@ -806,11 +821,17 @@ a.whatss-fixed {
 
 /* RESPONSIVE */
 
-
 @media screen and (min-width: 200px) and (max-width: 649px) {
-
   #clients .clients_logo {
     grid-template-columns: 1fr;
+  }
+  #services .cards.fire-solution {
+  
+    width: 20rem;
+  }
+
+  #services .cards.fire-solution p {
+  text-align: justify;
   }
 }
 
@@ -819,7 +840,6 @@ a.whatss-fixed {
     max-width: 50%;
     margin: auto;
   }
-
  
 }
 
@@ -832,7 +852,6 @@ a.whatss-fixed {
   #clients .clients_logo {
     grid-template-columns: 1fr 1fr;
   }
- 
 }
 
 @media screen and (min-width: 992px) {
