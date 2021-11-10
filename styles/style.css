@@ -479,18 +479,18 @@ nav.show .icon-close {
   border-radius: 0.25rem 0.25rem 0 0;
 }
 
-#services .cards.fire-solution {
-  display: flex;
+#services .fire-solution {
+
   width: 35rem;
   margin: auto;
   margin-top: 4rem;
 }
 
-#services .fire-solution .card img {
+#services .fire-solution img {
   width: 6.25rem;
 }
 
-#services .fire-solution .card ul li {
+#services .fire-solution ul li {
   list-style: circle inside;
   text-align: left;
   font-weight: bold;
@@ -517,7 +517,6 @@ nav.show .icon-close {
 .modal-services.grid {
   gap: 2rem;
 }
-
 
 /* *** CLIENTS ****************************** */
 
@@ -826,12 +825,11 @@ a.whatss-fixed {
     grid-template-columns: 1fr;
   }
   #services .cards.fire-solution {
-  
     width: 20rem;
   }
 
   #services .cards.fire-solution p {
-  text-align: justify;
+    text-align: justify;
   }
 }
 
@@ -840,7 +838,6 @@ a.whatss-fixed {
     max-width: 50%;
     margin: auto;
   }
- 
 }
 
 @media screen and (min-width: 650px) and (max-width: 991px) {
